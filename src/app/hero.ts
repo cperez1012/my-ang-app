@@ -1,10 +1,17 @@
 export class Hero {
 
-  constructor(
+  // constructor(
+  //   public id: number,
+  //   public name: string,
+  //   public power: string,
+  //   public alterEgo?: string
+  // ){}
+    constructor(
     public id: number,
-    public name: string,
-    public power: string,
-    public alterEgo?: string
+    public firstName: string,
+    public lastName: string,
+    public email: string,
+    public gender: string
   ){}
 
 }

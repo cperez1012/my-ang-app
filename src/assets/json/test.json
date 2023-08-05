@@ -1,0 +1,61 @@
+[{
+  "id": 1,
+  "first_name": "Beret",
+  "last_name": "Penbarthy",
+  "email": "bpenbarthy0@wisc.edu",
+  "gender": "Female"
+}, {
+  "id": 2,
+  "first_name": "Torry",
+  "last_name": "Edelheid",
+  "email": "tedelheid1@marriott.com",
+  "gender": "Polygender"
+}, {
+  "id": 3,
+  "first_name": "Raddy",
+  "last_name": "Cottel",
+  "email": "rcottel2@vk.com",
+  "gender": "Male"
+}, {
+  "id": 4,
+  "first_name": "Tab",
+  "last_name": "Warbey",
+  "email": "twarbey3@google.de",
+  "gender": "Male"
+}, {
+  "id": 5,
+  "first_name": "Gerick",
+  "last_name": "Braybrook",
+  "email": "gbraybrook4@issuu.com",
+  "gender": "Male"
+}, {
+  "id": 6,
+  "first_name": "Yard",
+  "last_name": "Durnan",
+  "email": "ydurnan5@google.ca",
+  "gender": "Male"
+}, {
+  "id": 7,
+  "first_name": "Skylar",
+  "last_name": "Gratrix",
+  "email": "sgratrix6@bing.com",
+  "gender": "Male"
+}, {
+  "id": 8,
+  "first_name": "Laurena",
+  "last_name": "Peile",
+  "email": "lpeile7@devhub.com",
+  "gender": "Female"
+}, {
+  "id": 9,
+  "first_name": "Allina",
+  "last_name": "Chalcraft",
+  "email": "achalcraft8@lycos.com",
+  "gender": "Female"
+}, {
+  "id": 10,
+  "first_name": "Wilden",
+  "last_name": "Bramer",
+  "email": "wbramer9@ning.com",
+  "gender": "Male"
+}]
