@@ -15,9 +15,9 @@ export class UserComponent implements OnInit {
   }
 
   ngOnInit(): void {
-      this.userService.sayHello().subscribe(data => {
-        this.message = data;
-      })
+      // this.userService.sayHello().subscribe(data => {
+      //   this.message = data;
+      // })
   }
 
 }

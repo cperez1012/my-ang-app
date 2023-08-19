@@ -29,7 +29,7 @@ describe('LoginComponent', () => {
     // Simulate a successful login
     component.isAuthenticated = false;
     // Call the login method or perform the necessary actions to simulate a successful login
-    component.login();
+    component.onSubmit();
     expect(component.isAuthenticated).toBeTrue();
   });
 

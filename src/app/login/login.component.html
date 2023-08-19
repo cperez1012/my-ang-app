@@ -1,8 +1,30 @@
-<h1>Login</h1>
-<h3>Username</h3>
-<input [(ngModel)]="username" placeholder="Enter your username"/>
-<h3>Password</h3>
-<input [(ngModel)]="password" placeholder="Enter your password"/>
-<button (click)="login()">Submit</button>
-<br>
-<button (click)="createAccount()">Create Account</button>
+<div class="form-box">
+  <form *ngIf="!showForm">
+    <h1>Login</h1>
+    <h3>Email</h3>
+    <input [(ngModel)]="user.email"
+    [ngModelOptions]="{standalone: true}" placeholder="Enter your email"/>
+    <h3>Password</h3>
+    <input [(ngModel)]="user.password"
+    [ngModelOptions]="{standalone: true}"placeholder="Enter your password"/>
+    <button (click)="onSubmit()">Submit</button>
+    <br>
+    -OR-
+    <br>
+    <button (click)="toggleForm()">Create Account</button>
+  </form>
+
+  <form *ngIf="showForm">
+    <h1>Create Account</h1>
+    <h3>Email</h3>
+    <input [(ngModel)]="user.email"
+    [ngModelOptions]="{standalone: true}" placeholder="Enter your email"/>
+    <h3>Password</h3>
+    <input [(ngModel)]="user.password" placeholder="Enter your password"/>
+    <br>
+    <button (click)="onSubmit()">Create Account</button>
+    -OR-
+    <br>
+    <button (click)="toggleForm()">Login</button>
+  </form>
+</div>
